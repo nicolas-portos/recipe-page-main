@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "young-serif";
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf')format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "outfit";
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf')format('truetype');
+    font-weight: 400, 600, 700;
+}
+
 body {
     background-color: hsl(30, 54%, 90%);
     display: flex;
@@ -5,16 +16,18 @@ body {
 }
 
 main {
+    font-family: "outfit";
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: hsl(0, 0%, 100%);
     padding: 25px;
     border-radius: 20px;
     width: 600px;
+    color: hsl(30, 10%, 34%);
 }
 
 strong {
-    color: hsl(24, 5%, 18%);
+    font-weight: 600;
 }
 
 /* Header */
@@ -26,8 +39,15 @@ strong {
 
 /* Titles */
 
+h1 {
+    font-family: "young-serif";
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
 h2 {
     color: hsl(14, 45%, 36%);
+    font-weight: 400;
 }
 
 h3 {
